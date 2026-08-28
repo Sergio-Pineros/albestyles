@@ -51,9 +51,9 @@ export function MotionProvider({ children }: { children: ReactNode }) {
     ScrollTrigger.config({ ignoreMobileResize: true });
 
     const instance = new Lenis({
-      lerp: 0.08,
-      wheelMultiplier: 0.82,
-      touchMultiplier: 1.08,
+      lerp: 0.07,
+      wheelMultiplier: 0.8,
+      touchMultiplier: 1.05,
       autoRaf: false,
     });
 

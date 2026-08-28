@@ -26,6 +26,7 @@ export const hours = [
 export const nav = [
   { label: "Work", href: "#work" },
   { label: "Services", href: "#services" },
+  { label: "Gallery", href: "#gallery" },
   { label: "Story", href: "#story" },
   { label: "Visit", href: "#visit" },
 ];
